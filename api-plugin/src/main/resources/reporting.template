@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Report</title>
+
+</head>
+<body>
+<table style="width:100%">
+<tr>
+<th>Author:</th>
+<th>Name:</th>
+<th>Published:</th>
+<th>Price:<th>
+</tr>
+{{#books}}
+<tr>
+<td>{{author}}</td>
+<td>{{name}}</td>
+<td>{{published}}</td>
+<td>{{price}}</td>
+</tr>
+{{/books}}
+</table>
+</body>
+</html>
